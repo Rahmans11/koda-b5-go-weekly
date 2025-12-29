@@ -11,7 +11,7 @@ func ProcessNumber(input []int) []int {
 	var Results = []int{}
 	for _, value := range input {
 		if value == 0 {
-			panic("value payment must not be zero")
+			panic("input must not be zero")
 		}
 		Results = append(Results, value*2)
 	}
